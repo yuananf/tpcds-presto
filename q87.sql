@@ -25,4 +25,4 @@ WHERE store_sales.ss_sold_date_sk = date_dim.d_date_sk
       WHERE web_sales.ws_sold_date_sk = date_dim.d_date_sk
         AND web_sales.ws_bill_customer_sk = customer.c_customer_sk
         AND d_month_seq BETWEEN 1200 AND 1200 + 11)
-     ) cool_cust
+     ) cool_cust;

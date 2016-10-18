@@ -97,4 +97,4 @@ FROM
   ) x
 GROUP BY ROLLUP (channel, id)
 ORDER BY channel, id
-LIMIT 100
+LIMIT 100;

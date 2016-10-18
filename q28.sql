@@ -53,4 +53,4 @@ WHERE ss_quantity BETWEEN 0 AND 5
     AND (ss_list_price BETWEEN 154 AND 154 + 10
     OR ss_coupon_amt BETWEEN 7326 AND 7326 + 1000
     OR ss_wholesale_cost BETWEEN 7 AND 7 + 20)) B6
-LIMIT 100
+LIMIT 100;

@@ -57,4 +57,4 @@ WHERE
     > CASE WHEN ss2.store_sales > 0
     THEN ss3.store_sales / ss2.store_sales
       ELSE NULL END
-ORDER BY ss1.ca_county
+ORDER BY ss1.ca_county;

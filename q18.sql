@@ -25,4 +25,4 @@ WHERE cs_sold_date_sk = d_date_sk AND
   ca_state IN ('MS', 'IN', 'ND', 'OK', 'NM', 'VA', 'MS')
 GROUP BY ROLLUP (i_item_id, ca_country, ca_state, ca_county)
 ORDER BY ca_country, ca_state, ca_county, i_item_id
-LIMIT 100
+LIMIT 100;

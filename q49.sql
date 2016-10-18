@@ -123,4 +123,4 @@ FROM (
      ) store
 WHERE (store.return_rank <= 10 OR store.currency_rank <= 10)
 ORDER BY 1, 4, 5
-LIMIT 100
+LIMIT 100;

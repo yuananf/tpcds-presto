@@ -58,4 +58,4 @@ SELECT
 FROM segments
 GROUP BY segment
 ORDER BY segment, num_customers
-LIMIT 100
+LIMIT 100;

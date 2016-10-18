@@ -13,4 +13,4 @@ WHERE i_manufact_id = 350
       AND d_date_sk = ws_sold_date_sk
   )
 ORDER BY sum(ws_ext_discount_amt)
-LIMIT 100
+LIMIT 100;

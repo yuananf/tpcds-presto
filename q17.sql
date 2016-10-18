@@ -30,4 +30,4 @@ WHERE d1.d_quarter_name = '2001Q1'
   AND d3.d_quarter_name IN ('2001Q1', '2001Q2', '2001Q3')
 GROUP BY i_item_id, i_item_desc, s_state
 ORDER BY i_item_id, i_item_desc, s_state
-LIMIT 100
+LIMIT 100;

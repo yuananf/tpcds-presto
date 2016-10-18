@@ -119,4 +119,4 @@ FROM
       OR
       (household_demographics.hd_dep_count = 0 AND
         household_demographics.hd_vehicle_count <= 0 + 2))
-    AND store.s_store_name = 'ese') s8
+    AND store.s_store_name = 'ese') s8;

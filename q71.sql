@@ -41,4 +41,4 @@ WHERE
     AND time_sk = t_time_sk
     AND (t_meal_time = 'breakfast' OR t_meal_time = 'dinner')
 GROUP BY i_brand, i_brand_id, t_hour, t_minute
-ORDER BY ext_price DESC, brand_id
+ORDER BY ext_price DESC, brand_id;

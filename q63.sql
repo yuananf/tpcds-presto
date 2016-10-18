@@ -28,4 +28,4 @@ WHERE CASE WHEN avg_monthly_sales > 0
 ORDER BY i_manager_id
   , avg_monthly_sales
   , sum_sales
-LIMIT 100
+LIMIT 100;

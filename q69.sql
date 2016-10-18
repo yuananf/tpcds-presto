@@ -35,4 +35,4 @@ GROUP BY cd_gender, cd_marital_status, cd_education_status,
   cd_purchase_estimate, cd_credit_rating
 ORDER BY cd_gender, cd_marital_status, cd_education_status,
   cd_purchase_estimate, cd_credit_rating
-LIMIT 100
+LIMIT 100;

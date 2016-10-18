@@ -31,4 +31,4 @@ WHERE
 GROUP BY
   substr(w_warehouse_name, 1, 20), sm_type, cc_name
 ORDER BY substr(w_warehouse_name, 1, 20), sm_type, cc_name
-LIMIT 100
+LIMIT 100;

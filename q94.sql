@@ -20,4 +20,4 @@ WHERE
                    FROM web_returns wr1
                    WHERE ws1.ws_order_number = wr1.wr_order_number)
 ORDER BY count(DISTINCT ws_order_number)
-LIMIT 100
+LIMIT 100;

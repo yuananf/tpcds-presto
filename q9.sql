@@ -45,4 +45,4 @@ SELECT
   FROM store_sales
   WHERE ss_quantity BETWEEN 81 AND 100) END bucket5
 FROM reason
-WHERE r_reason_sk = 1
+WHERE r_reason_sk = 1;

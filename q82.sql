@@ -12,4 +12,4 @@ WHERE i_current_price BETWEEN 62 AND 62 + 30
   AND ss_item_sk = i_item_sk
 GROUP BY i_item_id, i_item_desc, i_current_price
 ORDER BY i_item_id
-LIMIT 100
+LIMIT 100;

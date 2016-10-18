@@ -30,4 +30,4 @@ FROM
     AND d_year = 1998
     AND d_moy = 11) all_sales
 ORDER BY promotions, total
-LIMIT 100
+LIMIT 100;

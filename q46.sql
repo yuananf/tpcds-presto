@@ -29,4 +29,4 @@ WHERE ss_customer_sk = c_customer_sk
   AND customer.c_current_addr_sk = current_addr.ca_address_sk
   AND current_addr.ca_city <> bought_city
 ORDER BY c_last_name, c_first_name, ca_city, bought_city, ss_ticket_number
-LIMIT 100
+LIMIT 100;

@@ -53,4 +53,4 @@ FROM sr_items, cr_items, wr_items
 WHERE sr_items.item_id = cr_items.item_id
   AND sr_items.item_id = wr_items.item_id
 ORDER BY sr_items.item_id, sr_item_qty
-LIMIT 100
+LIMIT 100;

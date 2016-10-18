@@ -16,4 +16,4 @@ WHERE ws_sold_time_sk = time_dim.t_time_sk
     AND household_demographics.hd_dep_count = 6
     AND web_page.wp_char_count BETWEEN 5000 AND 5200) pt
 ORDER BY am_pm_ratio
-LIMIT 100
+LIMIT 100;

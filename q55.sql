@@ -10,4 +10,4 @@ WHERE d_date_sk = ss_sold_date_sk
   AND d_year = 1999
 GROUP BY i_brand, i_brand_id
 ORDER BY ext_price DESC, brand_id
-LIMIT 100
+LIMIT 100;

@@ -60,4 +60,4 @@ WHERE s_store_sk = ss_store_sk
         ca_state IN ('VA', 'CA', 'MS')
         AND ss_net_profit BETWEEN 50 AND 25000
       )
-  )
+  );

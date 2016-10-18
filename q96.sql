@@ -8,4 +8,4 @@ WHERE ss_sold_time_sk = time_dim.t_time_sk
   AND household_demographics.hd_dep_count = 7
   AND store.s_store_name = 'ese'
 ORDER BY count(*)
-LIMIT 100
+LIMIT 100;

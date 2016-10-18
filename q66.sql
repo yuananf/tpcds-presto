@@ -237,4 +237,4 @@ GROUP BY
   w_warehouse_name, w_warehouse_sq_ft, w_city, w_county, w_state, w_country,
   ship_carriers, year
 ORDER BY w_warehouse_name
-LIMIT 100
+LIMIT 100;

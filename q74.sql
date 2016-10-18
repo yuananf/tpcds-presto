@@ -55,4 +55,4 @@ WHERE t_s_secyear.customer_id = t_s_firstyear.customer_id
   THEN t_s_secyear.year_total / t_s_firstyear.year_total
     ELSE NULL END
 ORDER BY 1, 1, 1
-LIMIT 100
+LIMIT 100;

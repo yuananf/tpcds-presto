@@ -117,4 +117,4 @@ ORDER BY
   t_s_secyear.customer_birth_country,
   t_s_secyear.customer_login,
   t_s_secyear.customer_email_address
-LIMIT 100
+LIMIT 100;

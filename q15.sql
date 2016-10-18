@@ -12,4 +12,4 @@ WHERE cs_bill_customer_sk = c_customer_sk
   AND d_qoy = 2 AND d_year = 2001
 GROUP BY ca_zip
 ORDER BY ca_zip
-LIMIT 100
+LIMIT 100;

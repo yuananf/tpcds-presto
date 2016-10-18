@@ -43,4 +43,4 @@ WHERE asceding.rnk = descending.rnk
   AND i1.i_item_sk = asceding.item_sk
   AND i2.i_item_sk = descending.item_sk
 ORDER BY asceding.rnk
-LIMIT 100
+LIMIT 100;

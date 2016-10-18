@@ -20,4 +20,4 @@ WHERE
     AND hd_buy_potential LIKE 'Unknown%'
     AND ca_gmt_offset = -7
 GROUP BY cc_call_center_id, cc_name, cc_manager, cd_marital_status, cd_education_status
-ORDER BY sum(cr_net_loss) DESC
+ORDER BY sum(cr_net_loss) DESC;

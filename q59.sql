@@ -72,4 +72,4 @@ FROM
 WHERE s_store_id1 = s_store_id2
   AND d_week_seq1 = d_week_seq2 - 52
 ORDER BY s_store_name1, s_store_id1, d_week_seq1
-LIMIT 100
+LIMIT 100;

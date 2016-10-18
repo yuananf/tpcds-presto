@@ -16,4 +16,4 @@ FROM store_sales
 WHERE sr_reason_sk = r_reason_sk AND r_reason_desc = 'reason 28') t
 GROUP BY ss_customer_sk
 ORDER BY sumsales, ss_customer_sk
-LIMIT 100
+LIMIT 100;

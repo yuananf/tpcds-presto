@@ -52,4 +52,4 @@ FROM web_v1 web FULL OUTER JOIN store_v1 store ON (web.item_sk = store.item_sk
      ) x) y
 WHERE web_cumulative > store_cumulative
 ORDER BY item_sk, d_date
-LIMIT 100
+LIMIT 100;

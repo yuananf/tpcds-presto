@@ -27,4 +27,4 @@ WHERE CASE WHEN (avg_monthly_sales <> 0)
   THEN (abs(sum_sales - avg_monthly_sales) / avg_monthly_sales)
       ELSE NULL END > 0.1
 ORDER BY sum_sales - avg_monthly_sales, s_store_name
-LIMIT 100
+LIMIT 100;

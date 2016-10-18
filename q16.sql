@@ -20,4 +20,4 @@ WHERE
                    FROM catalog_returns cr1
                    WHERE cs1.cs_order_number = cr1.cr_order_number)
 ORDER BY count(DISTINCT cs_order_number)
-LIMIT 100
+LIMIT 100;

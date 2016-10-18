@@ -43,4 +43,4 @@ GROUP BY ca_state, cd_gender, cd_marital_status, cd_dep_count,
   cd_dep_employed_count, cd_dep_college_count
 ORDER BY ca_state, cd_gender, cd_marital_status, cd_dep_count,
   cd_dep_employed_count, cd_dep_college_count
-LIMIT 100
+LIMIT 100;

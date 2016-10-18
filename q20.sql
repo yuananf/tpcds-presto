@@ -15,4 +15,4 @@ WHERE cs_item_sk = i_item_sk
 AND (cast('1999-02-22' AS DATE) + INTERVAL '30' day)
 GROUP BY i_item_id, i_item_desc, i_category, i_class, i_current_price
 ORDER BY i_category, i_class, i_item_id, i_item_desc, revenueratio
-LIMIT 100
+LIMIT 100;

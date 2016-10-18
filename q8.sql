@@ -84,4 +84,4 @@ WHERE ss_store_sk = s_store_sk
   AND (substr(s_zip, 1, 2) = substr(V1.ca_zip, 1, 2))
 GROUP BY s_store_name
 ORDER BY s_store_name
-LIMIT 100
+LIMIT 100;

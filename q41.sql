@@ -46,4 +46,4 @@ WHERE (i_manufact = i1.i_manufact AND
         (i_size = 'medium' OR i_size = 'extra large')
       )))) > 0
 ORDER BY i_product_name
-LIMIT 100
+LIMIT 100;

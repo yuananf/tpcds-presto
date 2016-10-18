@@ -24,4 +24,4 @@ FROM
   GROUP BY ss_ticket_number, ss_customer_sk, ss_addr_sk, store.s_city) ms, customer
 WHERE ss_customer_sk = c_customer_sk
 ORDER BY c_last_name, c_first_name, substr(s_city, 1, 30), profit
-LIMIT 100
+LIMIT 100;

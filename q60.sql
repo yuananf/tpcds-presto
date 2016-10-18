@@ -59,4 +59,4 @@ FROM (SELECT *
       FROM ws) tmp1
 GROUP BY i_item_id
 ORDER BY i_item_id, total_sales
-LIMIT 100
+LIMIT 100;

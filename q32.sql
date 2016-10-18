@@ -12,4 +12,4 @@ WHERE
     WHERE cs_item_sk = i_item_sk
       AND d_date BETWEEN cast('2000-01-27' AS DATE) AND (cast('2000-01-27' AS DATE) + interval '90' day)
       AND d_date_sk = cs_sold_date_sk)
-LIMIT 100
+LIMIT 100;

@@ -35,4 +35,4 @@ WHERE ctr1.ctr_state = ctr2.ctr_state)
 ORDER BY c_customer_id, c_salutation, c_first_name, c_last_name, ca_street_number, ca_street_name
   , ca_street_type, ca_suite_number, ca_city, ca_county, ca_state, ca_zip, ca_country, ca_gmt_offset
   , ca_location_type, ctr_total_return
-LIMIT 100
+LIMIT 100;

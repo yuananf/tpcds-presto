@@ -18,4 +18,4 @@ WHERE a.ca_address_sk = c.c_current_addr_sk
 GROUP BY a.ca_state
 HAVING count(*) >= 10
 ORDER BY cnt
-LIMIT 100
+LIMIT 100;

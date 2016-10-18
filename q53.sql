@@ -27,4 +27,4 @@ WHERE CASE WHEN avg_quarterly_sales > 0
 ORDER BY avg_quarterly_sales,
   sum_sales,
   i_manufact_id
-LIMIT 100
+LIMIT 100;

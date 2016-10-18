@@ -22,4 +22,4 @@ WHERE (CASE WHEN inv_before > 0
        ELSE NULL
        END) BETWEEN 2.0 / 3.0 AND 3.0 / 2.0
 ORDER BY w_warehouse_name, i_item_id
-LIMIT 100
+LIMIT 100;
